@@ -127,7 +127,7 @@ window.addEventListener("load", (e)=> {
             toolbar: ['heading', '|', 'bold', 'italic', 'link', 'bulletedList', 'numberedList', 'imageUpload', 'ckfinder', 'blockQuote', 'insertTable', 'mediaEmbed', 'undo', 'redo']
         } )
         .then(editor => {
-            setupELFinder(editor, '/elfinder/connector', 'l1_Lw', 'ja')
+            setupCKFinder(editor, 'ja')
         })
         .catch(error => {
             console.error( error );
