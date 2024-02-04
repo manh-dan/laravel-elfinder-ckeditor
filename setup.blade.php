@@ -8,4 +8,4 @@
 <!-- elFinder JS (REQUIRED) -->
 <script src="{{ asset('/packages/barryvdh/elfinder/js/elfinder.min.js') }}"></script>
 <!-- Setup CKEditor 5 in elFinder JS (REQUIRED) -->
-<script src="{{ asset('/packages/barryvdh/elfinder/js/ckeditor5.js') }}"></script>
+<script src="{{ asset('/packages/barryvdh/elfinder/js/ckeditor5.min.js') }}"></script>
