@@ -33,4 +33,4 @@ download_file "https://raw.githubusercontent.com/manh-dan/laravel-elfinder-ckedi
 
 # Path to the public/packages/barryvdh/elfinder/js directory of Laravel for CKEditor 5 setup
 laravel_public_dir="public/packages/barryvdh/elfinder/js"
-download_file "https://raw.githubusercontent.com/manh-dan/laravel-elfinder-ckeditor/main/ckeditor5.js" "$laravel_public_dir" "ckeditor5.js"
+download_file "https://raw.githubusercontent.com/manh-dan/laravel-elfinder-ckeditor/main/ckeditor5.min.js" "$laravel_public_dir" "ckeditor5.min.js"
